@@ -12,6 +12,11 @@
 		1221E1C61D49D87B006FA2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1221E1C41D49D87B006FA2E0 /* Main.storyboard */; };
 		1221E1C81D49D87B006FA2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1221E1C71D49D87B006FA2E0 /* Assets.xcassets */; };
 		1221E1CB1D49D87B006FA2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1221E1C91D49D87B006FA2E0 /* LaunchScreen.storyboard */; };
+		1221E1D31D49E610006FA2E0 /* TBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221E1D21D49E610006FA2E0 /* TBVC.swift */; };
+		1221E1D71D4B13BD006FA2E0 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221E1D61D4B13BD006FA2E0 /* ViewController1.swift */; };
+		1221E1D91D4B25AA006FA2E0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221E1D81D4B25AA006FA2E0 /* ViewController2.swift */; };
+		1221E1DB1D4B2A46006FA2E0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221E1DA1D4B2A46006FA2E0 /* ViewController3.swift */; };
+		123546C11D4ED90B0040A693 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123546C01D4ED90B0040A693 /* ViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		1221E1C71D49D87B006FA2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1221E1CA1D49D87B006FA2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1221E1CC1D49D87B006FA2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1221E1D21D49E610006FA2E0 /* TBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBVC.swift; sourceTree = "<group>"; };
+		1221E1D61D4B13BD006FA2E0 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		1221E1D81D4B25AA006FA2E0 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		1221E1DA1D4B2A46006FA2E0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		123546C01D4ED90B0040A693 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		1221E1B41D49D87B006FA2E0 = {
 			isa = PBXGroup;
 			children = (
+				1221E1D61D4B13BD006FA2E0 /* ViewController1.swift */,
 				1221E1BF1D49D87B006FA2E0 /* tryIt */,
 				1221E1BE1D49D87B006FA2E0 /* Products */,
 			);
@@ -57,6 +68,10 @@
 				1221E1C01D49D87B006FA2E0 /* AppDelegate.swift */,
 				1221E1C21D49D87B006FA2E0 /* ViewController.swift */,
 				1221E1C41D49D87B006FA2E0 /* Main.storyboard */,
+				123546C01D4ED90B0040A693 /* ViewController4.swift */,
+				1221E1DA1D4B2A46006FA2E0 /* ViewController3.swift */,
+				1221E1D81D4B25AA006FA2E0 /* ViewController2.swift */,
+				1221E1D21D49E610006FA2E0 /* TBVC.swift */,
 				1221E1C71D49D87B006FA2E0 /* Assets.xcassets */,
 				1221E1C91D49D87B006FA2E0 /* LaunchScreen.storyboard */,
 				1221E1CC1D49D87B006FA2E0 /* Info.plist */,
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1221E1D91D4B25AA006FA2E0 /* ViewController2.swift in Sources */,
+				123546C11D4ED90B0040A693 /* ViewController4.swift in Sources */,
+				1221E1D71D4B13BD006FA2E0 /* ViewController1.swift in Sources */,
+				1221E1DB1D4B2A46006FA2E0 /* ViewController3.swift in Sources */,
+				1221E1D31D49E610006FA2E0 /* TBVC.swift in Sources */,
 				1221E1C31D49D87B006FA2E0 /* ViewController.swift in Sources */,
 				1221E1C11D49D87B006FA2E0 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +306,7 @@
 				1221E1D11D49D87B006FA2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
